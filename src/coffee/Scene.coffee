@@ -1,3 +1,4 @@
+# _
 class Scene
   constructor: (container) ->
     # set dom container

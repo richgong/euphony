@@ -1,3 +1,4 @@
+# _
 class PlayerWidget
   constructor: (container) ->
     @$container = $(container)

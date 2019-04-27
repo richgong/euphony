@@ -1,3 +1,5 @@
+# _
+
 class LoaderWidget
   opts:
     color: '#aaaaaa'

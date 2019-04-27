@@ -1,3 +1,4 @@
+# _
 class NoteRain
 
   lengthScale: 0.001

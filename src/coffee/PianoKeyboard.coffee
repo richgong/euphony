@@ -1,3 +1,4 @@
+# _
 # design(specification) of piano key
 # based on MIDITrail(http://en.sourceforge.jp/projects/miditrail/)
 class PianoKeyboardDesign
