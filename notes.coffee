@@ -109,11 +109,3 @@
     # calculate the note's position
     x = keyInfo[noteNumber].keyCenterPosX
     y = startTime * @lengthScale + (length / 2)
-
-# note to color
-    noteToColor: do ->
-    map = MusicTheory.Synesthesia.map('August Aeppli (1940)')
-    offset = MIDI.pianoKeyOffset
-    (note) ->
-      return 0x000000 unless map[note - offset]?
-      parseInt(map[note - offset].hex, 16)
